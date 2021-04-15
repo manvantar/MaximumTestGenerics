@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.bridgelabz.TesterMax" tests="3" skipped="0" failures="0" errors="0" timestamp="2021-04-15T13:04:29" hostname="mkv" time="0.093">
+<testsuite name="com.bridgelabz.TesterMax" tests="9" skipped="0" failures="0" errors="0" timestamp="2021-04-15T13:47:05" hostname="mkv" time="0.09">
   <properties/>
-  <testcase name="given3Num_AndWhenThirdNumberIsMax_ShouldReturn_true()" classname="com.bridgelabz.TesterMax" time="0.083"/>
+  <testcase name="given3Num_AndWhenThirdNumberIsMax_ShouldReturn_true()" classname="com.bridgelabz.TesterMax" time="0.053"/>
+  <testcase name="given3Strings_And32ndStringIsMax_ShouldReturn_true()" classname="com.bridgelabz.TesterMax" time="0.002"/>
+  <testcase name="given3floatNum_AndWhenSecondNumberIsMaxShouldReturn_true()" classname="com.bridgelabz.TesterMax" time="0.003"/>
   <testcase name="given3Num_and_when_firstNumberIsMax_ShouldReturn_true()" classname="com.bridgelabz.TesterMax" time="0.004"/>
-  <testcase name="given3Num_AndWhenSecondNumberIsMaxShouldReturn_true()" classname="com.bridgelabz.TesterMax" time="0.003"/>
+  <testcase name="given3Strings_And3rdStringIsMax_ShouldReturn_true()" classname="com.bridgelabz.TesterMax" time="0.003"/>
+  <testcase name="given3Strings_And1stStringIsMax_ShouldReturn_true()" classname="com.bridgelabz.TesterMax" time="0.003"/>
+  <testcase name="given3Num_AndWhenSecondNumberIsMaxShouldReturn_true()" classname="com.bridgelabz.TesterMax" time="0.002"/>
+  <testcase name="given3floatNum_AndWhenThirdNumberIsMax_ShouldReturn_true()" classname="com.bridgelabz.TesterMax" time="0.002"/>
+  <testcase name="given3floatNum_and_when_firstNumberIsMax_ShouldReturn_true()" classname="com.bridgelabz.TesterMax" time="0.002"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
