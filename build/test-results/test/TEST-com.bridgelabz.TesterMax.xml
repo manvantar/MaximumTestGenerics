@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.bridgelabz.TesterMax" tests="3" skipped="0" failures="0" errors="0" timestamp="2021-04-15T12:35:56" hostname="mkv" time="0.042">
+  <properties/>
+  <testcase name="given3Num_AndWhenThirdNumberIsMax_ShouldReturn_true()" classname="com.bridgelabz.TesterMax" time="0.032"/>
+  <testcase name="given3Num_and_when_firstNumberIsMax_ShouldReturn_true()" classname="com.bridgelabz.TesterMax" time="0.003"/>
+  <testcase name="given3Num_AndWhenSecondNumberIsMaxShouldReturn_true()" classname="com.bridgelabz.TesterMax" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
