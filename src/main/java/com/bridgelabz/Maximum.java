@@ -11,4 +11,16 @@ public class Maximum {
         }
         return max;
     }
+
+    //Method of type String which returns maximum string in a string array
+    public <E extends String> E findMaximumString(E[] StringArray) {
+        int index = 0;
+        int elementLength = StringArray[0].length();
+        for(int i=1; i< StringArray.length; i++) {
+            if(StringArray[i].length() > elementLength) {
+                index = i; elementLength = StringArray[i].length();
+            }
+        }
+        return StringArray[index];
+    }
 }
