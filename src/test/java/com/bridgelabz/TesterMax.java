@@ -50,20 +50,20 @@ public class TesterMax {
     @Test
     public void given3Strings_And1stStringIsMax_ShouldReturn_true() {
         String [] stringArray = {"Banana", "Apple", "Peach"};
-        String result = maximumTest.findMaximumString(stringArray);
+        String result = maximumTest.findMaximum(stringArray);
         Assertions.assertEquals("Banana",result);
     }
     @Test
     public void given3Strings_And3rdStringIsMax_ShouldReturn_true() {
         String [] stringArray = {"Apple", "Peach","Banana"};
-        String result = maximumTest.findMaximumString(stringArray);
+        String result = maximumTest.findMaximum(stringArray);
         Assertions.assertEquals("Banana",result);
     }
 
     @Test
     public void given3Strings_And32ndStringIsMax_ShouldReturn_true() {
         String [] stringArray = {"Peach","Banana","Apple"};
-        String result = maximumTest.findMaximumString(stringArray);
+        String result = maximumTest.findMaximum(stringArray);
         Assertions.assertEquals("Banana",result);
     }
 
